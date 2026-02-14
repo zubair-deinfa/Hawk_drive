@@ -1,21 +1,3 @@
-<div align="center">
-  <a href="https://frappe.io/products/drive">
-    <img src=".github/new_logo.svg" height="80" width="80" alt="Frappe Drive Logo">
-  </a>
-  <h2>Frappe Drive</h2>
-
-**100% open source file storage, sharing, and collaboration**
-
-![Frappe Drive](https://github.com/user-attachments/assets/8b4b33ad-afb4-4e64-ac10-987076c66d57)
-
-[Website](https://frappe.io/drive) <!-- | [Demo](https://www.figma.com/community/file/949266436474872912) --> | [Community](https://t.me/frappedrive) | [Documentation](https://docs.frappe.io/drive/quick-start) | [Forum](https://discuss.frappe.io/)
-
-</div>
-
-> [!Warning]  
-> Frappe Drive is in beta. It is strongly advised to take backups in production use.
->
-
 ## Frappe Drive
 
 Frappe Drive is a secure and open-source cloud storage platform with a modern user interface that makes storing, collaborating, and sharing files effortless. Create and manage documents, spreadsheets, and multimedia across teams to accelerate project completion.
@@ -45,20 +27,6 @@ Writer — the document editor
 - Manually version your documents to always be able to go back to an older version
 - Automatic versioning to make sure you never lose data
 - Import docx documents into the editor
-
-
-<details>
-<summary>More screenshots</summary>
-
-![Image Preview](https://github.com/user-attachments/assets/993cbd87-a96c-4e5c-8737-0c03c9222723)
-
-![File Sharing Dialog](https://github.com/user-attachments/assets/acb1a542-53d1-4d0e-b2e2-6c9b87f04e69)
-
-![Editor](https://github.com/user-attachments/assets/fe87dfd1-3f55-42df-94b9-f7baed03a391)
-
-![Editor with real time editing](https://github.com/user-attachments/assets/f89a2fab-e618-4d7d-90a6-aaa2cf45fa55)
-
-</details>
 
 ### Under the Hood
 
@@ -199,30 +167,9 @@ bench start
 
 Frappe Drive should be accessible at `localhost:8000` or `sitename:8000`
 
-## Contribute
-
-There are many ways you can contribute even if you don't code:
-
-1. You can start by giving a star to this repository!
-2. If you find any issues, even if it is a typo, you can [raise an issue](https://github.com/frappe/drive/issues/new) to inform us.
 
 > [!WARNING]  
 > If you're self hosting Frappe Drive, do not use the app as the only way to store your files. Always have backup strategy for your files.
 >
 > Otherwise, consider our managed hosting on [Frappe Cloud](https://frappecloud.com/). It's the same exact code as from the `main` branch here, but with better support tooling and automated backups.
 
-### Learn and connect
-
-- [Website](https://frappe.io/drive)
-- [Telegram Public Group](https://t.me/frappedrive)
-- [Discuss Forum](https://discuss.frappe.io/)
-- [Documentation](https://docs.frappe.io/drive/quick-start)
-
-<div align="center" style="padding-top: 0.75rem;">
-	<a href="https://frappe.io" target="_blank">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/Frappe-white.png">
-			<img src="https://frappe.io/files/Frappe-black.png" alt="Frappe Technologies" height="28"/>
-		</picture>
-	</a>
-</div>
